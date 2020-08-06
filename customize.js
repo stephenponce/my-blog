@@ -15,7 +15,7 @@ const config = {
   ========================================= */
   author: `Stephen Ponce`,                             // Name shows on profile
   profileDescription: "This is Stephen Ponce's personal website & portfolio.",   // Shows under author name
-  profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  profileImageName: `profile.jpg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "Los Angeles, CA",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
@@ -47,7 +47,7 @@ const config = {
 
   /* More Custom Settings
   ========================================= */
-  defaultTheme: "dark",                      // Options: dark / light -- applied to first visitors
+  defaultTheme: "light",                      // Options: dark / light -- applied to first visitors
   showTimeToRead: false,                      // Shows time to read for each post in main page
   breakCodeLines: false,                      // Breaks long code lines instead of having horizontal scroll
   faviconSrc: `_assets/icon-code.png`,        // Favicon

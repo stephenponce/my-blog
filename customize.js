@@ -4,7 +4,7 @@
 const config = {
   /* Site
   ========================================= */
-  title: `StephenPonce`,          // Displayed in header
+  title: `Stephen Ponce`,          // Displayed in header
   description: `This is my portfolio`,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
@@ -14,7 +14,7 @@ const config = {
   /* Profile
   ========================================= */
   author: `Stephen Ponce`,                             // Name shows on profile
-  profileDescription: "This is Stephen Ponce's personal website & portfolio.",   // Shows under author name
+  profileDescription: "This is my personal website & portfolio.",   // Shows under author name
   profileImageName: `_assets/profile.jpg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "Los Angeles, CA",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
@@ -35,7 +35,7 @@ const config = {
 
   /* Social Media Share Buttons--available below every post
   ========================================= */
-  shareButtons: { email: false, facebook: true, twitter: true, reddit: false, linkedIn: false },
+  shareButtons: { email: false, facebook: false, twitter: false, reddit: false, linkedIn: false },
 
   /* Comments
   ========================================= */

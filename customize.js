@@ -4,19 +4,19 @@
 const config = {
   /* Site
   ========================================= */
-  title: `gatsby-blog-mdx`,          // Displayed in header
-  description: `This is my blog`,     // Site description
+  title: `StephenPonce`,          // Displayed in header
+  description: `This is my portfolio`,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
-  siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
+  siteUrl: `https://stephenponce.com/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
 
   /* Profile
   ========================================= */
-  author: `Author Name`,                             // Name shows on profile
-  profileDescription: "{Edit me in customize.js}",   // Shows under author name
+  author: `Stephen Ponce`,                             // Name shows on profile
+  profileDescription: "This is Stephen Ponce's personal website & portfolio.",   // Shows under author name
   profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
-  location: "",                                      // Location under profileDescription. "" --> disabled
+  location: "Los Angeles, CA",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
   /* Social Media Links
@@ -24,12 +24,12 @@ const config = {
       showHeaderIcon: shows social media icon in header. When true, must have account name set
   ========================================= */
   socialMediaLinks: {
-    email:     { emailAddress: "", showHeaderIcon: true },
+    email:     { emailAddress: "stephenponce@gmail.com", showHeaderIcon: true },
     github:    { accountName: "", showHeaderIcon: true },
     facebook:  { accountName: "", showHeaderIcon: true },
     instagram: { accountName: "", showHeaderIcon: true },
     twitter:   { accountName: "", showHeaderIcon: true },
-    linkedIn:  { accountName: "", showHeaderIcon: true },   // Use URL after "linkedin.com/"
+    linkedIn:  { accountName: "in/stephenponce/", showHeaderIcon: true },   // Use URL after "linkedin.com/"
     medium:    { accountName: "", showHeaderIcon: true },   // Use URL after "medium.com/@"
   },
 
@@ -47,7 +47,7 @@ const config = {
 
   /* More Custom Settings
   ========================================= */
-  defaultTheme: "light",                      // Options: dark / light -- applied to first visitors
+  defaultTheme: "dark",                      // Options: dark / light -- applied to first visitors
   showTimeToRead: false,                      // Shows time to read for each post in main page
   breakCodeLines: false,                      // Breaks long code lines instead of having horizontal scroll
   faviconSrc: `_assets/icon-code.png`,        // Favicon

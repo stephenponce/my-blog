@@ -15,7 +15,7 @@ const config = {
   ========================================= */
   author: `Stephen Ponce`,                             // Name shows on profile
   profileDescription: "This is Stephen Ponce's personal website & portfolio.",   // Shows under author name
-  profileImageName: `profile.jpg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  profileImageName: `_assets/profile.jpg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "Los Angeles, CA",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
@@ -40,14 +40,14 @@ const config = {
   /* Comments
   ========================================= */
   comments: {
-    facebook: { enabled: true, appId: "" },      // appId: optional, but used to moderate fb comments
+    facebook: { enabled: false, appId: "" },      // appId: optional, but used to moderate fb comments
     disqus: { enabled: false, shortName: "" },   // Check your shortName on https://disqus.com
     utterances: { enabled: false, repoUrl: "" }, // i.e. 'ellismin/gatsby-blog-mdx'
   },
 
   /* More Custom Settings
   ========================================= */
-  defaultTheme: "light",                      // Options: dark / light -- applied to first visitors
+  defaultTheme: "dark",                      // Options: dark / light -- applied to first visitors
   showTimeToRead: false,                      // Shows time to read for each post in main page
   breakCodeLines: false,                      // Breaks long code lines instead of having horizontal scroll
   faviconSrc: `_assets/icon-code.png`,        // Favicon

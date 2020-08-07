@@ -15,7 +15,7 @@ const config = {
   ========================================= */
   author: `Stephen Ponce`,                             // Name shows on profile
   profileDescription: "Technical Product Manager",   // Shows under author name
-  profileImageName: `../_assets/profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "Los Angeles, CA",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 

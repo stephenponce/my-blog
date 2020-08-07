@@ -18,15 +18,6 @@ const Footer = () => {
         >
           {config.author}
         </StyledA>
-        , Built with
-        {` `}
-        <StyledA
-          href="https://github.com/EllisMin/gatsby-blog-mdx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          gatsby-blog-mdx
-        </StyledA>
       </div>
       <Link to="/rss.xml">
         <StyledRSS />
@@ -45,7 +36,7 @@ const StyledFooter = styled.footer`
   font-size: 0.9rem;
   margin-top: 1rem;
   padding: 1rem;
-  
+
   @media(max-width: 500px){
     font-size: 0.77rem;
   }

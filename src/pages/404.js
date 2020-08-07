@@ -11,7 +11,7 @@ const NotFoundPage = () => (
     </h1>
     <h1 style={{ textAlign: "center" }}>NOT FOUND</h1>
     <p style={{ textAlign: "center" }}>
-      You found a page that does not exist... the sadness..
+      Well this is awkward. The page you're looking for can't be found... the sadness..
     </p>
   </Layout>
 )

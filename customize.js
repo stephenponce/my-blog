@@ -14,8 +14,8 @@ const config = {
   /* Profile
   ========================================= */
   author: `Stephen Ponce`,                             // Name shows on profile
-  profileDescription: "This is my personal website & portfolio.",   // Shows under author name
-  profileImageName: `_assets/profile.jpg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  profileDescription: "Technical Product Manager",   // Shows under author name
+  profileImageName: `../_assets/profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "Los Angeles, CA",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
@@ -25,7 +25,7 @@ const config = {
   ========================================= */
   socialMediaLinks: {
     email:     { emailAddress: "stephenponce@gmail.com", showHeaderIcon: true },
-    github:    { accountName: "", showHeaderIcon: true },
+    github:    { accountName: "stephenponce/", showHeaderIcon: true },
     facebook:  { accountName: "", showHeaderIcon: true },
     instagram: { accountName: "", showHeaderIcon: true },
     twitter:   { accountName: "", showHeaderIcon: true },
